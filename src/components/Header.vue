@@ -2,6 +2,7 @@
   <div class="header">
     <div class="header-left">
       <h2>我的个人主页</h2>
+      <p class="owner">孙敏洁 · 249980832 · 24计科2班</p>
     </div>
 
     <!-- el-menu 水平菜单组件：router 模式直接按 index 跳转，自动导航高亮 -->
@@ -73,6 +74,7 @@ const goAdmin = () => router.push({ name: 'admin' })
   box-shadow: var(--el-box-shadow-light);
 }
 .header-left h2 { font-size: 1.15rem; color: var(--el-text-color-primary); }
+.owner { font-size: 12px; color: var(--el-text-color-secondary); }
 .header-menu { border-bottom: none; flex: 1; margin: 0 20px; min-width: 320px; }
 .header-right { display: flex; align-items: center; gap: 10px; }
 .welcome { font-size: 13px; color: var(--el-color-success); }
